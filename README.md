@@ -15,17 +15,17 @@ Image URL Construction
 The image URL is constructed using the thumbnail object retrieved from the API response. The formula used for constructing the image URL is as follows:
 imageURL = domain + "/" + basePath + "/0/" + key
 
-Implementation Details
+Implementation Details - 
 Language: Swift
 Native Technology: UIKit
 
-Instructions to Run the Code
+Instructions to Run the Code - 
 Clone the repository to your local machine.
 Open the Xcode project file.
 Build and run the project on an iOS simulator or device.
 Enjoy browsing through the image grid!
 
-Evaluation Criteria
+Evaluation Criteria - 
 Images load lazily.
 Image loading cancellation is implemented when quickly scrolling to different pages.
 Smooth scrolling experience with no lag.
